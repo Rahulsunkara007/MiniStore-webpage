@@ -1,0 +1,152 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  color: brown;
+  font-size: x-large;
+}
+.header ul {
+  display: flex;
+  list-style: none;
+  margin: 24px 0px 6px 101px;
+}
+.header li {
+  padding: 12px 15px;
+}
+.logo {
+  width: 200px;
+  margin: 0px 4px;
+}
+.nav ul li {
+  padding: 16px 19px 0px 0px;
+}
+.banner-img {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightgray;
+}
+.banner-img div img {
+  width: 403px;
+}
+.free ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-top: 44px;
+  font-size: xx-large;
+}
+.products-head {
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+}
+.products ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.disc h3 {
+  display: flex;
+  justify-content: space-between;
+  font-size: x-large;
+}
+.newyear {
+  margin-top: 53px;
+  font-size: xx-large;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-evenly;
+}
+.newyear div h1 {
+  margin: 221px 0px 0px 63px;
+}
+.newyear div button {
+  padding: 24px 74px;
+  background-color: black;
+  color: white;
+  font-size: x-large;
+  border-radius: 48px;
+}
+.blogs li img {
+  width: 436px;
+}
+.blogs ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.subscribe {
+  background-color: black;
+  color: white;
+  justify-content: space-evenly;
+  display: flex;
+  margin-top: 62px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer ul {
+  list-style-type: none;
+}
+.footer ul li {
+  padding: 0px 22px 14px 10px;
+  font-size: larger;
+}
+@media only screen and (max-width: 720px) {
+  .logo {
+    width: 118px;
+  }
+  .header {
+    display: inline-block;
+  }
+  .header li {
+    padding: 12px 7px;
+  }
+  .header ul {
+    display: none;
+  }
+  .banner-img div h1 {
+    margin-top: -34px;
+    font-size: large;
+    background-color: lightgray;
+  }
+  .banner-img div img {
+    width: 137px;
+  }
+  .free ul {
+    font-size: large;
+    display: inline-block;
+    margin: 35px -39px;
+  }
+  .products ul li img {
+    width: 68px;
+  }
+  .products ul {
+    display: inline;
+
+    list-style-type: none;
+  }
+  .products-head {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+  }
+  .yoyoyo input {
+    padding: 16px 20px;
+  }
+  .subscribe div button {
+    padding: 16px 59px;
+  }
+  .free ul li {
+    padding: 16px 0px;
+  }
+  .disc h3 {
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+  }
+  .footer {
+    display: inline-block;
+  }
+}
